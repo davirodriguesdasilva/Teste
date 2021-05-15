@@ -173,3 +173,59 @@ img{
 .bloco-2 .cta-container:hover{
     background-color: #e9484c;
 }
+
+/*---------------------BLOCO 3---------------------*/
+
+.bloco-3{
+    width: 100%;
+    background-color: #efefef;
+    padding-bottom: 1%;
+}
+
+.bloco-3 .elements-container{
+    padding: 20% 0 10% 0;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+
+.bloco-3 .icon-container{
+    width: 45px;
+    margin-bottom: 6%;
+}
+
+.bloco-3 h3{
+    font-family: 'Lato Black';
+    margin-bottom: 7%;
+}
+.bloco-3 p{
+    font-family: 'Myriad Pro Regular';
+}
+.bloco-3 .cta-container{
+    margin-top: 7%;
+    background-color: #000;
+    width: 190px;
+    text-align: center;
+    color: #fff;
+    transition: 200ms ease-in-out;
+    cursor: pointer;
+}
+
+.bloco-3 .cta-container p{
+    font-family: 'Lato Bold';
+    padding: 5%;
+}
+
+.bloco-3 .cta-container:hover{
+    background-color: #e9484c;
+}
+
+
+/*---------------------NOTICIAS---------------------*/
+
+
+
+
+
+
+/*---------------------FOOTER---------------------*/

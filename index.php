@@ -141,13 +141,64 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-lg">
+          <div class="col-sm">
+
+            <div class="elements-container">
+              <div class="icon-container">
+                <img src="assets/icon-1.png" alt="Icone 1">
+              </div>
+              <h3>Título do Serviço</h3>
+              <p>Ut wisi enim ad minim veniam, 
+                quis nostrud exerci tation ullamcorper 
+                suscipit lobortis nisl ut aliquip ex ea 
+                commodo consequat. Lorem ipsum dolor sit 
+                amet, consectetuer adipiscing elit, sed 
+                diam nonummy nibh euismod tincidunt ut 
+                laoreet dolore magna aliquam erat volutpat.</p>
+                <div class="cta-container">
+                  <p>SAIBA MAIS</p>
+                </div>
+            </div>
 
           </div>
-          <div class="col-lg">
+          <div class="col-sm">
 
+            <div class="elements-container">
+              <div class="icon-container">
+                <img src="assets/icon-2.png" alt="Icone 1">
+              </div>
+              <h3>Título do Serviço</h3>
+              <p>Ut wisi enim ad minim veniam, 
+                quis nostrud exerci tation ullamcorper 
+                suscipit lobortis nisl ut aliquip ex ea 
+                commodo consequat. Lorem ipsum dolor sit 
+                amet, consectetuer adipiscing elit, sed 
+                diam nonummy nibh euismod tincidunt ut 
+                laoreet dolore magna aliquam erat volutpat.</p>
+                <div class="cta-container">
+                  <p>SAIBA MAIS</p>
+                </div>
+            </div>
+            
           </div>
-          <div class="col-lg">
+          <div class="col-sm">
+
+            <div class="elements-container">
+              <div class="icon-container">
+                <img src="assets/icon-3.png" alt="Icone 1">
+              </div>
+              <h3>Título do Serviço</h3>
+              <p>Ut wisi enim ad minim veniam, 
+                quis nostrud exerci tation ullamcorper 
+                suscipit lobortis nisl ut aliquip ex ea 
+                commodo consequat. Lorem ipsum dolor sit 
+                amet, consectetuer adipiscing elit, sed 
+                diam nonummy nibh euismod tincidunt ut 
+                laoreet dolore magna aliquam erat volutpat.</p>
+                <div class="cta-container">
+                  <p>SAIBA MAIS</p>
+                </div>
+            </div>
 
           </div>
 
@@ -155,6 +206,16 @@
       </div>
       
     </section>
+
+
+    <!-- ---------------------NOTICIAS--------------------- -->
+
+
+
+
+
+
+      <!-- ---------------------FOOTER--------------------- -->
     
     
     
