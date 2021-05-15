@@ -1,0 +1,175 @@
+@import url(./fonts.css);
+
+img{
+    width: 100%;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+/* ---------------------NAVBAR--------------------- */
+
+.logo-container{
+    margin-left: auto;
+    margin: auto 0;
+    width: 90%;
+}
+
+#navbar{
+    padding: .5% 0 .5% 0;
+    width: 100%;
+}
+
+.navbar-nav{
+    margin-left: auto;
+}
+
+.nav-link{
+    text-align: center;
+}
+
+.nav-link{
+    font-family: 'Myriad Pro Black';
+    font-size: 22px;
+    color: #000 !important;
+    transition: 100ms ease-in-out;
+}
+
+.nav-link:hover{
+    background-color: #f8f8f8;
+}
+
+/* ---------------------HEADER CAROUSEL---------------------*/
+
+/* carousel items */
+
+.carousel-item{
+    width: 100%;
+    height: 60vh;
+    
+}
+.carousel-item:nth-child(1){
+    background: url(../assets/header.jpg);
+    background-size: cover;
+    background-position: 75% 50%;
+}
+.carousel-item:nth-child(2){
+    background: url(../assets/header.jpg);
+    background-size: cover;
+    background-position: 75% 50%;
+}
+.carousel-item:nth-child(3){
+    background: url(../assets/header.jpg);
+    background-size: cover;
+    background-position: 75% 50%;
+}
+.carousel-item:nth-child(4){
+    background: url(../assets/header.jpg);
+    background-size: cover;
+    background-position: 75% 50%;
+}
+.carousel-control-next-icon{
+    opacity: 1 !important;
+    background: url(../assets/arrow.jpg);
+    background-size: cover;
+}
+.carousel-control-prev-icon{
+    opacity: 1 !important;
+    background: url(../assets/arrow.jpg);
+    background-size: cover;
+    transform: scaleX(-1);
+}
+
+.carousel-control-next, .carousel-control-prev{
+    opacity: 1 !important;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    width: 50px;
+    height: 50px;
+}
+
+.carousel-indicators li{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    opacity: 1 !important;
+}
+
+.carousel-indicators .active{
+    background-color: #000;
+}
+
+.carousel-item .text-container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 63%;
+    width: 1050px;
+}
+.carousel-item .text-container h2{
+    font-family: 'Lato Bold';
+    color: #000;
+    font-size: calc(19px + 2vw);
+}
+.carousel-item .text-container p{
+    font-family: 'Lato Regular';
+    color: #000;
+    font-size: calc(6px + .9vw);
+    
+}
+
+/*---------------------QUEM SOMOS---------------------*/
+
+.bloco-2 .red-img{
+    width: 100%;
+    height: 472px;
+    background: url(../assets/red-image.jpg);
+    background-position: 75% 50%;
+    background-size: cover;
+}
+
+.bloco-2 .row{
+    width: 100%;
+    margin: 0;
+}
+
+.bloco-2 .col-lg{
+    padding: 0;
+}
+
+.bloco-2 .elements-container{
+    width: 580px;
+    max-width: 80%;
+    padding: 8% 0 6% 0;
+    margin-left: 10%;
+}
+
+.bloco-2 .elements-container h2{
+    font-family: 'Lato Black';
+    margin-bottom: 4%;
+}
+.bloco-2 .elements-container p{
+    font-family: 'Myriad Pro Regular';
+}
+
+.bloco-2 .cta-container{
+    margin-top: 7%;
+    background-color: #000;
+    width: 290px;
+    text-align: center;
+    color: #fff;
+    transition: 200ms ease-in-out;
+    cursor: pointer;
+}
+
+.bloco-2 .cta-container p{
+    font-family: 'Lato Bold';
+    padding: 5%;
+}
+
+.bloco-2 .cta-container:hover{
+    background-color: #e9484c;
+}

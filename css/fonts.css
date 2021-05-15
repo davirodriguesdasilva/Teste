@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Myriad Pro Regular';
+    src: url('../assets/fonts/MyriadPro-Regular.woff2') format('woff2'),
+        url('../assets/fonts/MyriadPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Myriad Pro Black';
+    src: url('../assets/fonts/MyriadPro-Black.woff2') format('woff2'),
+        url('../assets/fonts/MyriadPro-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato Bold';
+    src: url('../assets/fonts/Lato-Bold.woff2') format('woff2'),
+        url('../assets/fonts/Lato-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato Black';
+    src: url('../assets/fonts/Lato-Black.woff2') format('woff2'),
+        url('../assets/fonts/Lato-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato Regular';
+    src: url('../assets/fonts/Lato-Regular.woff2') format('woff2'),
+        url('../assets/fonts/Lato-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
