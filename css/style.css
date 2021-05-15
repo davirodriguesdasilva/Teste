@@ -159,6 +159,7 @@ img{
     margin-top: 7%;
     background-color: #000;
     width: 290px;
+    max-width: 100%;
     text-align: center;
     color: #fff;
     transition: 200ms ease-in-out;
@@ -224,8 +225,76 @@ img{
 /*---------------------NOTICIAS---------------------*/
 
 
+.bloco-4{
+    padding: 5% 0 5% 0;
+}
 
+.card{
+    border-radius: 0px !important;
+    border: 0px !important;
+    width: 100% !important;
+}
 
+.card-img-top{
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+}
 
+.card-body{
+    background-color: #000 !important;
+}
+
+.bloco-4 .card-title{
+    margin-bottom: 1.75rem;
+    font-family: 'Lato Black';
+    color: #fff;
+}
+
+.bloco-4 .card-text{
+    margin-top: 1.1rem;
+    font-family: 'Myriad Pro Regular';
+    color: #79d1da;
+}
+
+.bloco-4 h5{
+    font-size: 1.1rem;
+}
+
+.top-elements-container{
+    width: 100%;
+    color: #000;
+    font-family: 'Lato Black';
+    margin-bottom: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.owl-nav, .owl-dots{
+    display: none !important;
+}
+
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.arrow-1{
+    width: 45%;
+    transform: scaleX(-1);
+    cursor: pointer;
+}
+
+.arrow-2{
+    width: 45%;
+    cursor: pointer;
+}
 
 /*---------------------FOOTER---------------------*/
+
+.footer{
+    width: 100%;
+    background-color: #000;
+}
+
