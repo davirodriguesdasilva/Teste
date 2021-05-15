@@ -1,6 +1,6 @@
 var owl = $('.owl-carousel');
 $('.owl-carousel').owlCarousel({
-    loop:true,
+    loop:false,
     margin:30,
     nav:true,
     responsive:{
@@ -15,6 +15,8 @@ $('.owl-carousel').owlCarousel({
         }
     }
 })
+
+// ARROWS
 
 $('.arrow-1').click(function() {
     $('.owl-prev').click();
