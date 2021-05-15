@@ -293,8 +293,34 @@ img{
 
 /*---------------------FOOTER---------------------*/
 
-.footer{
+footer{
+    /* padding: 2% 0 2% 0; */
     width: 100%;
     background-color: #000;
 }
 
+footer .row{
+    justify-content: space-around;
+    max-width: 90%;
+    margin: 0 auto;
+    width: 1427px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Myriad Pro Regular';
+    align-items: center;
+    /* line-height: 0; */
+}
+
+footer p{
+    margin: auto 0;
+    padding: 5% 0 5% 0;
+    display: block;
+}
+
+
+footer .logo-container{
+    width: 50%;
+    max-width: 160px;
+    margin: 0 auto;
+    padding: 10% 0 10% 0;
+}
