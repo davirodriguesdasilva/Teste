@@ -324,3 +324,36 @@ footer .logo-container{
     margin: 0 auto;
     padding: 10% 0 10% 0;
 }
+
+/* ///////////ANIMATIONS///////////// */
+
+
+.bloco-2 .elements-container, .bloco-3 .elements-container{
+    opacity: 0;
+    transform: translateX(80px);
+}
+
+.navbar .logo-container{
+    transform: translateX(-100%);
+    overflow: hidden;
+}
+
+.navbar .logo-anima{
+    transform: translateX(100%);
+}
+
+.nav-link{
+    opacity: 0;
+}
+
+#dots{
+    opacity: 0;
+}
+
+.bgs-anima{
+    opacity: 0;
+}
+
+.bloco-4 .news-anima{
+    opacity: 0;
+}

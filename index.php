@@ -21,7 +21,7 @@
             <nav class="navbar navbar-expand-lg navbar-light">
                 <a class="navbar-brand" href="#">
                     <div class="logo-container">
-                        <img src="assets/logo.jpg" alt="">
+                        <img src="assets/logo.jpg" class="logo-anima">
                     </div>
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -52,7 +52,7 @@
     
     <!-- ---------------------HEADER--------------------- -->
     
-    <header>
+    <header class="bgs-anima">
         
         <div class="container-fluid">
             
@@ -109,7 +109,7 @@
             <div class="row">
                 
                 <div class="col-lg">
-                    <div class="red-img"></div>
+                    <div class="red-img bgs-anima"></div>
                 </div>
                 <div class="col-lg">
                     <div class="elements-container">
@@ -230,43 +230,57 @@
                         
                         <div class="container">
                             
-                            <div class="top-elements-container">
+                            <div class="top-elements-container news-anima">
                                 <h2>NOTÍCIAS RECENTES</h2>
                                 
                                 <div class="nav-container">
                                     <div class="arrow-1">
-                                        <img src="assets/arrow-2.jpg">
+                                        <img src="assets/arrow-2.jpg" class="news-anima">
                                     </div>
                                     <div class="arrow-2">
-                                        <img src="assets/arrow-2.jpg">
+                                        <img src="assets/arrow-2.jpg" class="news-anima">
                                     </div>
                                 </div>
                                 
                             </div>
                             
-                            <div class="owl-carousel owl-theme owl-loaded">
+                            <div class="owl-carousel owl-theme owl-loaded news-anima">
                             
                             <!-- ITEMS -->
 
                              <?php
                                 $dataJson = file_get_contents('data.json');
                                 $data = json_decode($dataJson);
-        
+
                                 foreach($data->data as $index){
                                     if($index->status->name == "Publicado"){
+
+                                        switch(substr($index->created_at, 5, 2)){
+                                            case 1: $monthName = "Janeiro"; break;
+                                            case 2:  $monthName = "Fevereiro"; break;
+                                            case 3:  $monthName = "Março"; break;
+                                            case 4:  $monthName = "Abril"; break;
+                                            case 5:  $monthName = "Maio"; break;
+                                            case 6:  $monthName = "Junho"; break;
+                                            case 7:  $monthName = "Julho"; break;
+                                            case 8:  $monthName = "Agosto"; break;
+                                            case 9:  $monthName = "Setembro"; break;
+                                            case 10:  $monthName = "Outubro"; break;
+                                            case 11:  $monthName = "Novembro"; break;
+                                            case 12:  $monthName = "Dezembro"; break;
+                                        }
 
                                         echo '
                                         <div class="item">
                                         <div class="card" style="width: 18rem;">
-                                            <img class="card-img-top" src="assets/news-img-1.jpg" alt="Notícia 1">
+                                            <img class="card-img-top" src="assets/news-img-'.random_int(1, 3).'.jpg" alt="Notícia 1">
                                             <div class="card-body">
-                                                <p class="card-text">'.$index->category->title.' / 18 de Novembro, 2016</p>
+                                                <p class="card-text">'.$index->category->title.' / '.substr($index->created_at, 8, 2).' de '.$monthName.', '.substr($index->created_at, 0, 4).'</p>
                                                 <h5 class="card-title">'.$index->title.'</h5>
                                             </div>
                                         </div>
                                          </div>
                                         ';
-
                                     }
                                 }
                             
@@ -304,10 +318,13 @@
                     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
                     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
                     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-                    
+                    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script> -->
+                    <script src="js/gsap/gsap.min.js"></script>
+                    <script src="js/gsap/ScrollTrigger.min.js"></script>    
+
                     <script src="js/owl.carousel.min.js"></script>
-                    
                     <script src="js/main.js"></script>  
+                    <script src="js/animations.js"></script>  
                     
                 </body>
                 </html>
